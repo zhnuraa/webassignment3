@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+#task0 h1 {
+    font-size: 36px;
+}
+
+#task0 p {
+    font-size: 18px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #999;
+    background-color: #eaf4ff;
+}
+
+
+/* Task 2 - Bootstrap Grid */
+.grid-box {
+    border: 1px solid #999;
+    padding: 15px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+
+/* Task 4 - Portfolio */
+.portfolio {
+    padding: 30px;
+}
+
+.portfolio-title {
+    font-size: 30px;
+}
+
+.project-box {
+    border: 1px solid #999;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.sidebar {
+    border: 1px solid #999;
+    padding: 15px;
+    background-color: #fff3cd;
+}
+
+.optional-text {
+    display: block;
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    #task0 h1 {
+        font-size: 30px;
+    }
+
+    #task0 p {
+        font-size: 16px;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .portfolio-title {
+        font-size: 27px;
+    }
+
+    .portfolio {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    #task0 h1 {
+        font-size: 24px;
+    }
+
+    #task0 p {
+        font-size: 14px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .portfolio-title {
+        font-size: 24px;
+    }
+
+    .portfolio {
+        padding: 10px;
+    }
+
+    .optional-text {
+        display: none;
+    }
+}
