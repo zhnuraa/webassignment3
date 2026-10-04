@@ -1,8 +1,8 @@
 ## WEB Technologies 1 - Assignment 3
 
-**Student Information**
+**Student Information: Nurassyl Zhumagul**
 
-**Name: Nurassyl Zhumagul**
+
 **Group: IT-2501**
 
 # Task 0
